@@ -11,6 +11,7 @@ public class ArrayPractice {
 
 		String str2 = "hello bachho where are you";
 		ArrayPractice.reverseNonSpacedString(str2);
+		String str3 = "hello";
 	}
 
 	static void countLettersInString(String args) {
