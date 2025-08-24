@@ -5,11 +5,11 @@ import java.util.HashMap;
 
 public class ArrayPractice {
 	public static void main(String args[]) {
-		String str = "aabbcddda";
+		String str = "aabbcddda2";
 		ArrayPractice.countLettersInString(str);
 		System.out.println("Reverse String : " + ArrayPractice.reverseString(str));
 
-		String str2 = "hello bachho where are you";
+		String str2 = "hello bachho where are you1";
 		ArrayPractice.reverseNonSpacedString(str2);
 		String str3 = "hello";
 	}
