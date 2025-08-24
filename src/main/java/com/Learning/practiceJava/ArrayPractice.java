@@ -9,7 +9,7 @@ public class ArrayPractice {
 		ArrayPractice.countLettersInString(str);
 		System.out.println("Reverse String : " + ArrayPractice.reverseString(str));
 
-		String str2 = "hello bachho where are you1";
+		String str2 = "hello bachho where are you vch";
 		ArrayPractice.reverseNonSpacedString(str2);
 		String str3 = "hello";
 	}
