@@ -8,12 +8,7 @@ public class ArrayPractice {
 		String str = "aabbcddda2";
 		ArrayPractice.countLettersInString(str);
 		System.out.println("Reverse String : " + ArrayPractice.reverseString(str));
-
-<<<<<<< HEAD
 		String str2 = "hello bachho where are you a3 for rebase by vch?";
-=======
-		String str2 = "hello bachho where are you a5 for rebase?";
->>>>>>> e75d986 (a5 for rebase)
 		ArrayPractice.reverseNonSpacedString(str2);
 		String str3 = "hello";
 	}
