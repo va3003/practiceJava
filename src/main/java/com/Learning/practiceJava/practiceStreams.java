@@ -2,6 +2,7 @@ package com.Learning.practiceJava;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 
 public class practiceStreams {
 
@@ -25,6 +26,9 @@ public class practiceStreams {
 		
 		System.out.println("Sum of odd integers : " + newList.stream().filter(element->element%2==1).reduce(0, (number1,number2) -> number1 + number2));
 		
+		Optional<Integer> a = newList.stream().min(Integer::compare);
+		
+		System.out.println(" min a : "+a.orElse(-1));
 		
 	}
 }
