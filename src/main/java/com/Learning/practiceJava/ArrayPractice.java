@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class ArrayPractice {
-	public static void main(String args[]) {
+	public static void main(String[] args) {
 		String str = "aabbcddda2";
 		ArrayPractice.countLettersInString(str);
 		System.out.println("Reverse String : " + ArrayPractice.reverseString(str));
