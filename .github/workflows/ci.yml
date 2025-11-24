@@ -26,3 +26,10 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+    - name: deploy with maven
+      run: mvn deploy
+    
