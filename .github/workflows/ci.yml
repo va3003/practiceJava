@@ -33,6 +33,6 @@ jobs:
     - name: List files in a specific subdirectory
       run: ls -la target/
     - name: deploy with maven
-      run: mvn deploy:deploy-file -DpomFile=pom.xml -Dfile=/target/practiceJava-0.0.1-SNAPSHOT.jar -DrepositoryId=practiceJava -Durl=http://https://github.com/va3003/practiceJava
+      run: mvn deploy:deploy-file -DpomFile=pom.xml -Dfile=target/practiceJava-0.0.1-SNAPSHOT.jar -DrepositoryId=practiceJava -Durl=http://https://github.com/va3003/practiceJava
 
     
