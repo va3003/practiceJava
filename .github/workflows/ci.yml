@@ -22,17 +22,5 @@ jobs:
         java-version: '21'
         distribution: 'temurin'
         cache: maven
-    - name: Check WorkDir
-      run: echo "Running script in subdir $(pwd)"
     - name: Build with Maven
-      run: mvn -B package --file pom.xml
-    - name: Check WorkDir
-      run: echo "Running script in subdir $(pwd)"
-    - name: List files in current directory
-      run: ls -la
-    - name: List files in a specific subdirectory
-      run: ls -la target/
-    - name: deploy with maven
-      run: mvn deploy:deploy-file -DpomFile=pom.xml -Dfile=target/practiceJava-0.0.1-SNAPSHOT.jar -DrepositoryId=practiceJava -Durl=http://https://github.com/va3003/practiceJava
-
-    
+      run: mvn clean install
